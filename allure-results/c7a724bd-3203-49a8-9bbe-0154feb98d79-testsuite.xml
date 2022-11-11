@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667815990736' stop='1667815994530'>
+    <name>Test suit 3</name>
+    <title>Test suit 3</title>
+    <test-cases>
+        <test-case start='1667815990737' status='broken' stop='1667815994529'>
+            <name>switch to middle frame and verify text</name>
+            <title>switch to middle frame and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667815990740' status='passed' stop='1667815992400'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b95ac880-01d8-4794-8f97-b5441ef87e3c-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667815994406' status='passed' stop='1667815994527'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4ae3ad85-aa80-493d-9d3a-77d3144dd42c-attachment.png' type='image/png' size='11850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for findElement
+                Usage: findElement(using, value)
+                
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-find-element
+                </message>
+                <stack-trace>Error: Wrong parameters applied for findElement
+                Usage: findElement(using, value)
+                
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-find-element
+                
+                    at Browser.protocolCommand (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\webdriver\build\command.js:32:19)
+                    at Browser.wrapCommandFn (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at async Context.&lt;anonymous> (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\test\specs\test3.e2e.js:5:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

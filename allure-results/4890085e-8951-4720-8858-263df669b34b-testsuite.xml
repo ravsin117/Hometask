@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667813634017' stop='1667813650048'>
+    <name>Test suit 1</name>
+    <title>Test suit 1</title>
+    <test-cases>
+        <test-case start='1667813634018' status='broken' stop='1667813650045'>
+            <name>verify opening a new window</name>
+            <title>verify opening a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667813634022' status='passed' stop='1667813641681'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='da70d6e9-4685-460f-be9b-dbd7739937a0-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667813644688' status='passed' stop='1667813644705'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='888e65cb-9100-4672-befe-c1a6afb2fc1e-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='b81af3fc-ae96-4fac-8cd6-03a097696754-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667813644710' status='passed' stop='1667813644772'>
+                    <name>POST /session/:sessionId/element/df835dd1-aefc-4e35-a7b2-9b784a77bea9/click</name>
+                    <title>POST /session/:sessionId/element/df835dd1-aefc-4e35-a7b2-9b784a77bea9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1667813649778' status='passed' stop='1667813650042'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a4ad3f6d-45a4-432b-a129-3f72a97b79eb-attachment.png' type='image/png' size='48215'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.click is not a function</message>
+                <stack-trace>TypeError: browser.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\test\specs\test2.e2e.js:13:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

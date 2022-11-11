@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667815444118' stop='1667815448316'>
+    <name>Test suit 3</name>
+    <title>Test suit 3</title>
+    <test-cases>
+        <test-case start='1667815444119' status='broken' stop='1667815448315'>
+            <name>switch to middle frame and verify text</name>
+            <title>switch to middle frame and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667815444122' status='passed' stop='1667815446138'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ef2cb450-edfa-4fad-b44f-53102dd61dc4-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667815448149' status='passed' stop='1667815448170'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d8fb349-42e2-4833-8926-00cf632b84fa-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='98a0ab13-e47f-4c23-83cc-b2c0f7ce3879-attachment.json' type='application/json' size='1028'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667815448178' status='broken' stop='1667815448315'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='b9a5af7d-2e51-4acd-b81f-38cdb719e77f-attachment.json' type='application/json' size='4651'/>
+                    </attachments>
+                    <steps>
+                        <step start='1667815448211' status='passed' stop='1667815448314'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='f8068ec7-f96b-4c42-86e0-69264840e7a6-attachment.png' type='image/png' size='11850'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=107.0.5304.88)</message>
+                <stack-trace>invalid argument: invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=107.0.5304.88)
+                    at getErrorFromResponseBody (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\test\specs\test3.e2e.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

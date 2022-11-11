@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667811123921' stop='1667811135501'>
+    <name>Test suit 1</name>
+    <title>Test suit 1</title>
+    <test-cases>
+        <test-case start='1667811123922' status='broken' stop='1667811135500'>
+            <name>verify opening a new window</name>
+            <title>verify opening a new window</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667811123925' status='passed' stop='1667811127232'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='91a6a9c8-714d-422d-b5aa-826636aff187-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667811130249' status='passed' stop='1667811130287'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='abaaa283-d4db-4059-a498-a167010655c1-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='52fb1146-16ba-4468-961f-fee16c01b237-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667811130293' status='passed' stop='1667811130349'>
+                    <name>POST /session/:sessionId/element/9b86ca65-bb62-41b5-93ad-31a2b8af8fac/click</name>
+                    <title>POST /session/:sessionId/element/9b86ca65-bb62-41b5-93ad-31a2b8af8fac/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1667811135356' status='broken' stop='1667811135500'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1667811135359' status='passed' stop='1667811135499'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='33c7e85c-bcac-4fd7-8497-37583f9cc396-attachment.json' type='application/json' size='55'/>
+                                <attachment title='Screenshot' source='4e84e573-c7e0-412f-9ef6-93aab55f7eaa-attachment.png' type='image/png' size='48215'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: toHaveTextContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveTextContaining
+                    at Object.proxyGetter [as get] (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\test\specs\test2.e2e.js:12:38)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

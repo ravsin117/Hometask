@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667819055168' stop='1667819059136'>
+    <name>Test suit 3</name>
+    <title>Test suit 3</title>
+    <test-cases>
+        <test-case start='1667819055169' status='broken' stop='1667819059135'>
+            <name>switch to middle frame and verify text</name>
+            <title>switch to middle frame and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667819055171' status='passed' stop='1667819056966'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='733b9083-5c93-4b9a-871b-32d88fd6209d-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667819058981' status='passed' stop='1667819059003'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ccc425e5-f21a-402b-8134-8c2ebda33009-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='a49ab4d0-b448-4a9d-a031-cdeed0e7be98-attachment.json' type='application/json' size='1027'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667819059012' status='passed' stop='1667819059134'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='78395d58-1c86-4bdb-bad3-1ee0a44912a9-attachment.png' type='image/png' size='11850'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.frame is not a function</message>
+                <stack-trace>TypeError: browser.frame is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ravinder_Singh3\Desktop\Automation\HomeTask\test\specs\test3.e2e.js:7:17)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

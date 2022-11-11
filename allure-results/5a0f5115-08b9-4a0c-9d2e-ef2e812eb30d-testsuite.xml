@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667819675518' stop='1667819679616'>
+    <name>Test suit 3</name>
+    <title>Test suit 3</title>
+    <test-cases>
+        <test-case start='1667819675518' status='passed' stop='1667819679615'>
+            <name>switch to middle frame and verify text</name>
+            <title>switch to middle frame and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667819675521' status='passed' stop='1667819677586'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='70f06bac-614c-45ec-a31d-a8b20f50c683-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667819679595' status='passed' stop='1667819679614'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='808f9542-5301-4c79-83a8-07bbd104c05e-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='257107b4-f81e-4a00-a475-236d0d0ce087-attachment.json' type='application/json' size='1027'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

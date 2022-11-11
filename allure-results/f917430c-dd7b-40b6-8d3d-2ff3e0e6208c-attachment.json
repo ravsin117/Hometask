@@ -1,0 +1,131 @@
+{
+  "id": {
+    "sessionId": "d7beb0804364d4b26c2a4a8eaa0f26b6",
+    "error": {
+      "error": "no such element",
+      "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"frame[src=\"/frame_middle\"]\"}\n  (Session info: chrome=107.0.5304.88)",
+      "stacktrace": "Backtrace:\n\tOrdinal0 [0x0108ACD3+2075859]\n\tOrdinal0 [0x0101EE61+1633889]\n\tOrdinal0 [0x00F1B7BD+571325]\n\tOrdinal0 [0x00F4AC2F+764975]\n\tOrdinal0 [0x00F4AE1B+765467]\n\tOrdinal0 [0x00F7D0F2+970994]\n\tOrdinal0 [0x00F67364+881508]\n\tOrdinal0 [0x00F7B56A+963946]\n\tOrdinal0 [0x00F67136+880950]\n\tOrdinal0 [0x00F3FEFD+720637]\n\tOrdinal0 [0x00F40F3F+724799]\n\tGetHandleVerifier [0x0133EED2+2769538]\n\tGetHandleVerifier [0x01330D95+2711877]\n\tGetHandleVerifier [0x0111A03A+521194]\n\tGetHandleVerifier [0x01118DA0+516432]\n\tOrdinal0 [0x0102682C+1665068]\n\tOrdinal0 [0x0102B128+1683752]\n\tOrdinal0 [0x0102B215+1683989]\n\tOrdinal0 [0x01036484+1729668]\n\t(No symbol) [0x7664FA29]\n\tRtlGetAppContainerNamedObjectPath [0x779D7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x779D7B8E+238]\n"
+    },
+    "selector": "frame[src=\"/frame_middle\"]",
+    "parent": {
+      "sessionId": "d7beb0804364d4b26c2a4a8eaa0f26b6",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "107.0.5304.88",
+        "chrome": {
+          "chromedriverVersion": "107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})",
+          "userDataDir": "C:\\Users\\RAVIND~1\\AppData\\Local\\Temp\\scoped_dir22816_173095630"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:62096"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "C:\\Users\\Ravinder_Singh3\\Desktop\\Automation\\HomeTask\\test\\specs\\test3.e2e.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.google.com/",
+        "_": [],
+        "spec": [
+          "./test\\specs\\test3.e2e.js"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}
